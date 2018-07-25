@@ -25,7 +25,7 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
   
 # Examples
 
-* download traffic camera images to a folder called 'images'
+* download Minnesota traffic camera images to a folder called 'images'
   
   `node index.js --directory images`
 
@@ -33,6 +33,9 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 
 `node index.js --folders --directory images`
 
+* download Iowa traffic camera images to a folder called 'images'
+
+`node index.js --directory images --json https://tr.511ia.org/tgcameras/api/cameras`
 
 
 
