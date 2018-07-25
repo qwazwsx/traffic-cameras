@@ -1,3 +1,7 @@
+![](https://i.imgur.com/VXoEXl1.jpg) ![](https://i.imgur.com/4wrGfgo.jpg) *(not live)
+
+
+
 # traffic-cameras
 Easily batch download images from Minnesota (and Iowa) traffic cameras
 
@@ -43,7 +47,7 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 | --quiet       | -q             | n/a (flag) | disables ALL console output                                              | disabled                                   |
 | --log         | -l             | n/a (flag) | saves verbose output to log.log                                          | disabled                                   |
 | --directory   | -d             | file path  | directory/path to save images to                                         | current directory                          |
-| --json        | -j             | url        | URL of camera api JSON file to fetch cameras from                        | https://tr.511mn.org/tgcameras/api/cameras |
+| --json        | -j             | url        | URL of camera api JSON file to fetch cameras from                        | https://tr.511mn.org/tgcameras/api/cameras |y
 | --folders     | -f             | n/a (flag) | separates each camera to its own folder. useful for creating timelapses  | disabled                                   |
 | --no-metadata | -m             | n/a (flag) | disables saving of metadata JSON files                                   | enabled (ie metadata is saved)             |
 
