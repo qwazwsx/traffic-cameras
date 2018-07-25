@@ -29,7 +29,7 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
   
   `node index.js --directory images`
 
-* separate each camera into its own folder
+* separate each camera into its own folder (if you want to do timelapses)
 
 `node index.js --folders --directory images`
 
