@@ -1,0 +1,38 @@
+{
+  "name": "traffic-cameras",
+  "version": "1.0.0",
+  "description": "batch download images from Minnesota (and Iowa) traffic cameras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwazwsx/traffic-cameras.git"
+  },
+  "keywords": [
+    "camera",
+    "minnesota",
+    "iowa",
+    "traffic",
+    "stream",
+    "pictures"
+  ],
+  "author": "qwazwsx",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/qwazwsx/traffic-cameras/issues"
+  },
+  "homepage": "https://github.com/qwazwsx/traffic-cameras#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "colors": "^1.3.1",
+    "fs": "0.0.1-security",
+    "image-downloader": "^3.4.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "progress": "^2.0.0",
+    "request": "^2.87.0"
+  }
+}
