@@ -16,7 +16,7 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 
 * download this repository 
 
-  `git clone qwazwsx/traffic-cameras && cd traffic-cameras-master`
+  `git clone https://github.com/qwazwsx/traffic-cameras.git && cd traffic-cameras`
   
 * install dependencies 
 
