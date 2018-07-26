@@ -54,8 +54,6 @@ var options = {
 
 }
 
-console.log(options.no_metadata)
-
 // make the directory to put the files in
 if (options.directory !== '.') {
   mkdirp(options.directory, function (err) {
@@ -71,6 +69,7 @@ if (options.log) {
 
 /// ////////////////////////////////////////////////////////////////////////////////////////////
 
+log(Date())
 log('[INFO] grabbing camera list')
 
 // grab list of all trafic cams
