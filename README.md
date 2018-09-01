@@ -43,11 +43,11 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 
 * download all MN traffic cameras into their own folder (if you want to do timelapses) \*This option changes how files are titled so you can run this command on a timer and generate a timelapse
 
-`node index.js --folders --directory images`
+`node index.js --folders`
 
-* download Iowa traffic camera images to a folder called 'images'
+* download all Iowa traffic camera images to the current directory
 
-`node index.js --directory images --json https://tr.511ia.org/tgcameras/api/cameras`
+`node index.js --json https://tr.511ia.org/tgcameras/api/cameras`
 
 
 
