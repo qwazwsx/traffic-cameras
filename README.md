@@ -1,19 +1,23 @@
-![](https://i.imgur.com/R4JJKeH.gif)
+
+# traffic-cameras
+
+![](timelapse_sample.gif) [(better quality here)](https://streamable.com/6k16v)
 
 ![](https://i.imgur.com/VXoEXl1.jpg) ![](https://i.imgur.com/4wrGfgo.jpg) 
 
+-----
 
 
 
-
-# traffic-cameras
 Easily batch download images from Minnesota (and Iowa) traffic cameras
 
-* easy, but has powerful command line options
+* easy to use
 
-* saves metadata
+* powerful command line options
 
-* easy on requests (adjustable concurrent requests)
+* option to save metadata
+
+* adjustable concurrent requests
 
 
 # How do I install this?
@@ -29,11 +33,15 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
   
 # Examples
 
-* download Minnesota traffic camera images to a folder called 'images'
+* download all MN traffic cameras to the current directory
+
+  `node index.js`
+
+* download all MN traffic cameras to a folder called 'images'
   
   `node index.js --directory images`
 
-* separate each camera into its own folder (if you want to do timelapses)
+* download all MN traffic cameras into their own folder (if you want to do timelapses) \*This option changes how files are titled so you can run this command on a timer and generate a timelapse
 
 `node index.js --folders --directory images`
 
