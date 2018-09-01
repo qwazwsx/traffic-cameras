@@ -53,7 +53,7 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 
 # Command line options
 
-| long argument | short argument | input type | description                                                              | default                                    |
+| long_argument | short | input type | description                                                              | default                                    |
 |---------------|----------------|------------|--------------------------------------------------------------------------|--------------------------------------------|
 | --timeout     | -t             | integer    | specifies the timeout (in ms) for downloading individual images          | 4000                                       |
 | --retries     | -r             | integer    | number of times to attempt retrying the download of a broken image       | 3                                          |
@@ -62,12 +62,10 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 | --quiet       | -q             | n/a (flag) | disables ALL console output                                              | disabled                                   |
 | --log         | -l             | n/a (flag) | saves verbose output to log.log                                          | disabled                                   |
 | --directory   | -d             | file path  | directory/path to save images to                                         | current directory                          |
-| --json        | -j             | url        | URL of camera api JSON file to fetch cameras from                        | https://tr.511mn.org/tgcameras/api/cameras |y
+| --json        | -j             | url        | URL of camera api JSON file to fetch cameras from                        | *see below |y
 | --folders     | -f             | n/a (flag) | separates each camera to its own folder. useful for creating timelapses  | disabled                                   |
 | --no-metadata | -m             | n/a (flag) | disables saving of metadata JSON files                                   | enabled (ie metadata is saved)             |
 
 
 
-
-
-feel free to submit issues or PR's and ill take a look at them as soon as I can
+\* the default value for --json is `https://tr.511mn.org/tgcameras/api/cameras` 
