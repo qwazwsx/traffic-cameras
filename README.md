@@ -6,7 +6,7 @@
 ![](https://i.imgur.com/VXoEXl1.jpg) ![](https://i.imgur.com/4wrGfgo.jpg) 
 
 -----
-
+[![npm version](https://badge.fury.io/js/traffic-cameras.svg)](https://badge.fury.io/js/traffic-cameras)
 
 
 Easily batch download images from Minnesota (and Iowa) traffic cameras
@@ -22,32 +22,29 @@ Easily batch download images from Minnesota (and Iowa) traffic cameras
 
 # How do I install this?
 
-* download this repository 
+to install via NPM type the following into terminal:
 
-  `git clone https://github.com/qwazwsx/traffic-cameras.git && cd traffic-cameras`
-  
-* install dependencies 
+`npm i -g traffic-cameras`
 
-  `npm install`
-  
+this will install the module globally, meaning you can use `traffic-cameras` in terminal to run it
   
 # Examples
 
 * download all MN traffic cameras to the current directory
 
-  `node index.js`
+  `traffic-cameras`
 
 * download all MN traffic cameras to a folder called 'images'
   
-  `node index.js --directory images`
+  `traffic-cameras --directory images`
 
 * download all MN traffic cameras into their own folder (if you want to do timelapses) \*This option changes how files are titled so you can run this command on a timer and generate a timelapse
 
-`node index.js --folders`
+`traffic-cameras --folders`
 
 * download all Iowa traffic camera images to the current directory
 
-`node index.js --json https://tr.511ia.org/tgcameras/api/cameras`
+`traffic-cameras --json https://tr.511ia.org/tgcameras/api/cameras`
 
 
 
