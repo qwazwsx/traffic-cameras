@@ -1,11 +1,15 @@
 {
   "name": "traffic-cameras",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "batch download images from Minnesota (and Iowa) traffic cameras",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "traffic-cameras": "./index.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qwazwsx/traffic-cameras.git"
