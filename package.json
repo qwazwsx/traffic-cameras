@@ -1,6 +1,6 @@
 {
   "name": "traffic-cameras",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "batch download images from Minnesota (and Iowa) traffic cameras",
   "main": "index.js",
   "scripts": {
